@@ -85,6 +85,8 @@ qtcreator-*
 *.ilk
 *.map
 *.exp
+*.pgm
+*.bag
 
 # Precompiled Headers
 *.gch
