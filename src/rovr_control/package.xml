@@ -49,9 +49,36 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>roscppcontroller_managerrobot_state_publisherjoint_state_publisherjoint_state_controllersensor_msgsgeometry_msgscan_msgstelecomformatter_stringsocketcan_bridge</build_depend>
-  <build_export_depend>roscppcontroller_managerrobot_state_publisherjoint_state_publisherjoint_state_controllersensor_msgsgeometry_msgscan_msgstelecomformatter_stringsocketcan_bridge</build_export_depend>
-  <exec_depend>roscppcontroller_managerrobot_state_publisherjoint_state_publisherjoint_state_controllersensor_msgsgeometry_msgscan_msgstelecomformatter_stringsocketcan_bridge</exec_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>joint_state_publisher</build_depend>
+  <build_depend>joint_state_controller</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>can_msgs</build_depend>
+  <build_depend>socketcan_bridge</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>controller_manager</build_export_depend>
+  <build_export_depend>robot_state_publisher</build_export_depend>
+  <build_export_depend>joint_state_publisher</build_export_depend>
+  <build_export_depend>joint_state_controller</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>can_msgs</build_export_depend>
+  <build_export_depend>socketcan_bridge</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_controller</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>can_msgs</exec_depend>
+  <exec_depend>socketcan_bridge</exec_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->
