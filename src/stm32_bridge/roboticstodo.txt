@@ -1,0 +1,19 @@
+DriveTrain 100-Done
+	35 Listen length 8 
+		Bits 7-4: Linear velocity (int32) mm/s
+		Bits 3-0: Angular Velocity (int32) mrad/s
+Intake 101
+	40 Set Position length 1
+		0: Down(digging position)
+		1: Up(Driving position) 
+	41 broadcast Position State length 1
+		0: Is Down
+		1: Moving down
+		2: Moving up
+		3: Is up
+	
+Excavator 102
+	50 set conveyor speed length 4:
+		Speed (int32) rpm
+Unloader 102
+	
